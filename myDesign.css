@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body {font-family: Arial, Helvetica, sans-serif;
+color: whitesmoke;}
+.background
+{
+    height: 100%;
+    width: 100%;
+    background-color: #dd8d8d;
+    background-position: center;
+    background-size: cover;
+    position: absolute;  /* it uses the document body, and moves along with page scrolling.*/
+} 
+.input-group{
+    transition: .5s;
+}
+.field {
+    display: flex;
+    flex-flow: column-reverse;
+    margin-bottom: 1em;
+
+  }
+  
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto; /* it brings the form in the center*/
+    background:black;
+    padding: 20px;
+    box-shadow: rgb(138, 67, 67) 10px 10px inset;
+}
+.btn{
+    display: flex;
+   
+}
+.toggle-btn{
+
+    padding: 10px 30px;
+    position: relative;
+}
+input[type=text], input[type=password]
+{
+    width: 9cm;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+
+}
+hr{
+    border: 1px solid #b3e0ff;
+    
+}
+.pos{
+    display: flex;
+}
+button{
+    color:wheat;
+    width: 100%;
+    background-color:black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    opacity: 1;
+    float: center;
+}
+#login{
+    left: 50px;
+}
+#register{
+    left: 450px;
+}
